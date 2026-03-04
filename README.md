@@ -1,16 +1,29 @@
-# React + Vite
+# TP Final Frontend - App de Tareas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Qué hace el proyecto
+Esta es mi entrega final de Frontend. La aplicación permite **agregar tareas, buscarlas y verlas en una lista**.  
+Tiene **dos páginas** principales:  
+- **Home**: la página de inicio con un link para ir a “Mis Tareas”.  
+- **Tasks**: la página donde se pueden agregar tareas y usar un buscador para filtrarlas.
 
-Currently, two official plugins are available:
+## Librerías usadas
+- **React** para la interfaz.  
+- **react-router-dom** para moverme entre las páginas.  
+- **Vite** como entorno de desarrollo rápido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Cómo funciona
+- Se puede **agregar tareas** usando un formulario.  
+- El **buscador** filtra las tareas usando los parámetros de búsqueda en la URL.  
+- Uso **useState** para manejar los estados de las tareas.  
+- Uso **Context** para que las tareas estén disponibles en varias partes de la app.  
+- La página es **responsive** y se ve bien desde el móvil hasta pantallas grandes.  
+- Los estilos son accesibles, con buen contraste y centrados para que se vea ordenada.
 
-## React Compiler
+## Dificultades que tuve
+- Hacer que la página se vea bien en distintos tamaños de pantalla.  
+- Que el buscador filtre las tareas correctamente.  
+- Subir todo a GitHub y hacer el deploy en Vercel sin romper nada.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Links de entrega
+- **Repositorio GitHub**: [https://github.com/FernandoSanchez22/tp-final-frontend](https://github.com/FernandoSanchez22/tp-final-frontend)  
+- **App desplegada en Vercel**: [https://tp-final-frontend-teal.vercel.app/](https://tp-final-frontend-teal.vercel.app/)
